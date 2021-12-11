@@ -1,0 +1,43 @@
+#myInput {
+  width: 75%;
+  font-size: 1.5rem;
+  padding: 12px 20px 12px 25px;
+  border: 1px solid #dddddd;
+  border-radius: 50px;
+  margin-bottom: 10px;
+}
+
+#myInput:focus {
+  outline: none;
+  border: 2px solid #A556FF;
+}
+
+li {
+  display: inline-block;
+  margin: 5px;
+}
+
+#country-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.countyBtnContainer {
+  margin: 20px 0 50px 0;
+  padding: 10px 25px;
+  display: flex;
+  width: 100%;
+}
+
+.searchContainer {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.visibility {
+  display: none;
+}
